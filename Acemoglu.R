@@ -79,5 +79,5 @@ tslsmodel_k <- ivreg(lgdp ~ prot + euro + latitude | logmort + euro + latitude ,
 summary(tslsmodel_k)
 
 
-print(xtable(model_a), include.rownames = TRUE, include.colnames = TRUE, sanitize.text.function = I)
+print(xtable(model_b), include.rownames = TRUE, include.colnames = TRUE, sanitize.text.function = I)
 
